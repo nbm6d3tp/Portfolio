@@ -1,0 +1,149 @@
+.abc{
+    min-width: 120px;
+    min-height: 50px;
+    text-align: center;
+    line-height:70px
+}
+.abc:hover{
+    border-bottom: solid black;}
+ th,td{
+     padding-left: 5px;
+ }
+ .index{
+     color:rgba(0, 0, 0, 0.5);
+     font-size: 24px;
+     text-decoration: none;
+ }
+ .index:hover{
+     color: rgba(0, 0, 0, 0.9);
+ }
+ a{
+    text-decoration: none;
+ }
+ article{
+ font-family: 'PT Sans Narrow', sans-serif;color: #333;letter-spacing: 1.5px;font-size: 20px;line-height: 40px;padding-left: 10px;padding-right: 10px;
+ }
+ figcaption{
+     font-style: italic;
+     font-size: 18px;
+ }
+ .picmini{
+    width:150px;
+    height:150px
+ }
+ .divpicmini{
+    max-width:270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ body{
+    background-color:#BDBDBD;
+    margin:0px;
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+ header{
+    position: relative;
+    width:100%;
+    height: 190px;
+    background-color: white;
+ }
+ .divtop{
+    background-color: #0D1326 ;
+     width: 100%;
+     height: 70px;
+ }
+ .langue{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'PT Sans Narrow', sans-serif;
+ }
+ .divlangue{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    width:70px;
+    height: 70px
+ }
+ .divinfor{
+    float:right;
+    width: 42%;
+    height: 70px;
+    display: flex;
+ }
+ .infor{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    width:70px;
+    height: 70px;
+ }
+ .telmail{
+    font-family: 'PT Sans Narrow', sans-serif;
+    flex-grow: 1;
+    color: white;
+    display:flex;
+    justify-content: center
+    ;align-items:center;
+    width:70px;
+    height: 70px;
+    font-size:13px;
+ }
+ .granddivlogo{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 100px;
+ }
+ .logo{
+    width:350px;
+    height:70px;
+    position: absolute;
+    top: 20px;
+}
+section{
+    background-color: white;
+}
+.divorange{
+    min-height: 35px;
+    background-color:#F5DA81;
+}
+.titre{
+    min-height: 50px;
+    background-color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:#333 ;
+    letter-spacing: 2px;
+}
+.space{
+    min-height: 50px;
+    background-color: white;
+}
+footer{
+    padding:20px;
+    font-style: italic;
+    position: relative;
+    background-color: #333;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.granddivlangue{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    left: 50px;
+    display: flex;
+}
+.divlogo{
+    height:150px;
+    width:350px;
+    position: relative;
+}
+.divinforfoot{
+    width: 42%;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 40px;right: 0;
+}
